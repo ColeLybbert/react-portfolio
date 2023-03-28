@@ -69,7 +69,7 @@ code {
 }
 
 .content {
-  font-size: clamp(1.5rem, 6vw, 4rem);
+  font-size: clamp(1rem, 4vw, 2rem);
   text-decoration: none;
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   transition: opacity 400ms ease, margin-top 400ms ease;
@@ -116,6 +116,8 @@ button {
   background: none;
   border: none;
   margin-left: clamp(1rem, 5vw, 12rem);
+  font-size: 1rem;
+  text-decoration: underline;
 }
 
 button:hover {
@@ -131,4 +133,12 @@ a {
 a:hover {
   opacity: 0.3;
   transition: opacity 800ms ease;
+}
+
+nav {
+  height: 5vh;
+}
+
+.content-item {
+  width: 80%;
 }

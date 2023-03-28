@@ -109,7 +109,7 @@ export default function MainPage() {
           <h1
             className={textActive ? "dark" : "light"}
             style={{
-              margin: "0 20% 0 5%",
+              margin: "0 25% 0 5%",
               width: "40%",
             }}
           >
@@ -139,7 +139,6 @@ export default function MainPage() {
             onChange={ToggleClass}
             style={{
               width: "5%",
-              margin: "0 3%",
             }}
           />
         </animated.nav>
@@ -216,7 +215,7 @@ export default function MainPage() {
             ) : (
               <animated.div
                 className={
-                  textActive ? "menu-item darkText" : "menu-item lightText"
+                  textActive ? " content-item menu-item darkText" : " content-item menu-item lightText"
                 }
                 style={style}
               >
@@ -247,7 +246,7 @@ export default function MainPage() {
             item ? (
               ""
             ) : (
-              <animated.div className="menu-item" style={style}>
+              <animated.div className=" content-item menu-item" style={style}>
                 <p
                   className={
                     textActive ? "content darkText" : "content lightText"
@@ -279,7 +278,7 @@ export default function MainPage() {
             ) : (
               <animated.div
                 className={
-                  textActive ? "menu-item darkText" : "menu-item lightText"
+                  textActive ? " content-item menu-item darkText" : " content-item menu-item lightText"
                 }
                 style={style}
               >
@@ -312,7 +311,7 @@ export default function MainPage() {
             ) : (
               <animated.div
                 className={
-                  textActive ? "menu-item darkText" : "menu-item lightText"
+                  textActive ? " content-item menu-item darkText" : " content-item menu-item lightText"
                 }
                 style={style}
               >
