@@ -295,7 +295,7 @@ export default function MainPage() {
                     </a>
                     <a className={
                       textActive ? "projectItems darkText" : "projectItems lightText"
-                    } href="https://github.com/ColeLybbert/fend-final">
+                    } href="https://github.com/ColeLybbert/react-portfolio">
                       Portfolio
                     </a>
                   </div>
