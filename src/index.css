@@ -142,3 +142,20 @@ nav {
 .content-item {
   width: 80%;
 }
+
+.projects {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: clamp(1rem, 5vw, 12rem);
+  padding: none;
+  font-size: 1.2rem;
+}
+
+.projectItems {
+  width: 100%;
+  margin: 5% 0%;
+  font-size: clamp(1rem, 1.5rem, 2rem);
+}
+

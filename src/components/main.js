@@ -287,12 +287,18 @@ export default function MainPage() {
                     textActive ? "content darkText" : "content lightText"
                   }
                 >
-                  <a href="https://github.com/ColeLybbert/fend-final">
-                    Udacity Final
-                  </a>
-                  <a href="https://github.com/ColeLybbert/fend-final">
-                    React Portfolio
-                  </a>
+                  <div className="projects">
+                    <a className={
+                      textActive ? "projectItems darkText" : "projectItems lightText"
+                    } href="https://github.com/ColeLybbert/fend-final">
+                      Udacity Final
+                    </a>
+                    <a className={
+                      textActive ? "projectItems darkText" : "projectItems lightText"
+                    } href="https://github.com/ColeLybbert/fend-final">
+                      Portfolio
+                    </a>
+                  </div>
                 </p>
                 <button
                   className={textActive ? "darkText" : "lightText"}
