@@ -290,6 +290,9 @@ export default function MainPage() {
                   <a href="https://github.com/ColeLybbert/fend-final">
                     Udacity Final
                   </a>
+                  <a href="https://github.com/ColeLybbert/fend-final">
+                    React Portfolio
+                  </a>
                 </p>
                 <button
                   className={textActive ? "darkText" : "lightText"}
